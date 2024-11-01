@@ -38,16 +38,16 @@ const HomeScreen = ({ scrollToSection, rulesRef, hotelsRef, restaurantsRef, brac
       </div>
     </div>
   
-    <div ref={bracketRef}>
+    <div ref={bracketRef} id="bracket">
       <Bracket />
     </div>
-    <div ref={restaurantsRef}>
+    <div ref={restaurantsRef} id="restaurants">
       <Restaurants />
     </div>
-    <div ref={hotelsRef}>
+    <div ref={hotelsRef} id="hotels">
       <Hotels />
     </div>
-    <div ref={rulesRef}>
+    <div ref={rulesRef} id="tournament-rules">
       <Rules />
     </div>
   </div>
