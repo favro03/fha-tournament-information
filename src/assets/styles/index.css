@@ -1,0 +1,485 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%; /* Ensure body takes full height */
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+}
+
+/* HEADER STYLE */
+
+header {
+    position: sticky; /* Make it sticky */
+    top: 0; /* Stick to the top */
+    /* background-image: url("../images/fhaHero2.png"); */
+    background-image: url("../images/fhaHero3.png");
+    /* background-image: url("../images/fhaHero.png"); */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999; /* Keep it on top */
+}
+
+
+.hero {
+  background-image: url("../images/fhaHero3.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Centers items vertically */
+  flex-direction: column; /* Stack children vertically */
+  background-attachment: fixed;
+  background-position: 80%;
+  height: 100vh; /* Full viewport height */
+  overflow: hidden; /* Prevents content from overflowing */
+  
+}
+
+.button-container {
+  max-width: 80%; /* Adjust for better spacing */
+  width: 100%; /* Ensure it takes full width of the parent */
+
+}
+
+.rules-button {
+    height: 320px; /* Keep height constant */
+    width: 100%; /* Ensure it takes full width of its parent */
+    max-width: 400px; /* Optional: Set max width if needed */
+    background-image: url("../images/rulesButton.png");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9; /* Initial transparency */
+    color: white; /* Text color */
+    font-weight: bold;
+    border: none;
+    border-radius: 15px; /* Makes corners rounded */
+    text-align: center;
+    transition: background-color 0.3s ease, opacity 0.3s ease; /* Smooth transition */
+}
+.bracket-button {
+  height: 320px; /* Keep height constant */
+  width: 100%; /* Ensure it takes full width of its parent */
+  max-width: 400px; /* Optional: Set max width if needed */
+  background-image: url("../images/bracketBtn.png");
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.9; /* Initial transparency */
+  color: white; /* Text color */
+  font-weight: bold;
+  border: none;
+  border-radius: 15px; /* Makes corners rounded */
+  text-align: center;
+  transition: background-color 0.3s ease, opacity 0.3s ease; /* Smooth transition */
+}
+.hotel-button {
+  height: 140px; /* Decrease height by 10px */
+  padding: 10px; /* Optional: Adjust padding to control inner spacing */
+  
+  background-image: url("../images/hotelPic.png");
+  background-size: 70px auto; /* Optional: Adjust size to fit the button better */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Center the image */
+
+  opacity: 0.7; /* Initial transparency */
+  background-color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 15px; /* Makes corners rounded */
+  text-align: center;
+  transition: background-color 0.3s ease, opacity 0.3s ease; /* Smooth transition */
+}
+
+.restaurant-button {
+  height: 140px; /* Decrease height by 10px */
+  padding: 10px; /* Optional: Adjust padding to control inner spacing */
+  
+  background-image: url("../images/restaurantPic.png");
+  background-size: 90px auto; /* Optional: Adjust size to fit the button better */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Center the image */
+
+  opacity: 0.7; /* Initial transparency */
+  background-color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 15px; /* Makes corners rounded */
+  text-align: center;
+  transition: background-color 0.3s ease, opacity 0.3s ease; /* Smooth transition */
+}
+
+
+.restaurant-button:hover {
+  background-color: rgba(255, 255, 255, 0.975); /* Light gray with 50% transparency */
+  opacity: 1; /* Adjust for a bit more brightness on hover */
+
+}
+.rules-button:hover  {
+    background-color: rgba(211, 211, 211, 0.5); /* Light gray with 50% transparency */
+    opacity: 1; /* Adjust for a bit more brightness on hover */
+}
+.hotel-button:hover {
+  background-color: rgba(255, 255, 255, 0.975); /* Light gray with 50% transparency */
+  opacity: 1; /* Adjust for a bit more brightness on hover */
+}
+.bracket-button:hover {
+  background-color: rgba(255, 255, 255, 0.975); /* Light gray with 50% transparency */
+  opacity: 1; /* Adjust for a bit more brightness on hover */
+
+}
+
+
+
+
+.rules-btn-txt {
+    display: flex;
+    justify-content: center; /* Centers text horizontally */
+    align-items: flex-end;   /* Aligns text to the bottom */
+    height: 100%;            /* Ensures the div takes up the full height of its container */
+    text-align: center;      /* Centers text within the flex container */
+    padding-bottom: 20px;    /* Adds spacing from the bottom (adjust as needed) */
+    font-weight: bold;       /* Optional: Makes the text bold */
+    color: black;            /* Optional: Changes text color */
+  
+   margin-top: 20px;
+  
+}
+
+
+
+/* Bracket Section */
+.bracket-container {
+    background-color: white;
+    display: flex; /* Enable flexbox */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow for depth */
+    height: 100vh; /* Set the container height */
+    overflow: hidden; /* Prevent overflow from child elements */
+}
+
+.bracket-container img {
+    max-height: 80%; /* Prevent the image from exceeding 80% of the container height */
+    max-width: 89%;
+ 
+}
+
+
+  /* Hotel Section */
+  .hotel-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 20px; */
+    padding: 100px 20px;
+    background-attachment: fixed;
+    background-position: 80%;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .hotel-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to right, rgb(50, 90, 50), silver, green);
+    opacity: 0.6;
+    z-index: -1;
+  }
+  
+  .hotel-title {
+    text-align: center;
+    margin-bottom: 50px !important;
+  }
+  
+  .hotel-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .hotel-section-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    padding: 10px;
+    background-color: slategray;
+    color: #fff;
+ border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+    outline: none; /* Remove default outline */
+}
+
+.hotel-section-button:hover {
+    background-color: rgb(84, 101, 84);
+    border: none;
+}
+
+  .hotel-info h4 {
+    margin: 5px 0;
+  }
+  
+  .hotel-info p {
+    margin: 2px 0;
+    font-size: 0.9em;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .hotel-list {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .hotel-section-button {
+      width: 100%;
+    }
+  }
+  
+ /* RESTAURANT SECTION */
+ /* RESTAURANT SECTION */
+.restaurant-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 20px;
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.restaurant-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("../images/greenBG.png");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+  background-color: rgba(104, 118, 104, 0.6);
+  transform: rotate(180deg); /* Flip the image upside down */
+  z-index: -1;
+}
+
+.restaurant-title {
+  color: black;
+  margin-bottom: 50px;
+}
+
+.restaurant-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px; /* Space between buttons */
+  justify-content: center;
+  width: 100%;
+}
+
+.all-restaurant-button {
+  width: 250px; /* Default width for larger screens */
+  height: 100px;
+  display: flex;
+  background-color: rgba(26, 15, 15, 0.644);
+  border: none;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.all-restaurant-button:hover {
+  background-color: white;
+  border: none;
+  color: black;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .all-restaurant-button {
+      width: calc(50% - 7.5px); /* Two buttons per line with a little space */
+      height: 80px; /* Adjust height if needed */
+  }
+
+  .restaurant-list {
+      justify-content: space-between; /* Adjust spacing */
+  
+  }
+}
+
+  
+
+ /* RULES SECTION */
+/* Updated .hero2 styling */
+.hero2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh; /* Ensure minimum full-screen height */
+    padding-top: 100px;/* Add padding to give space around content */
+    margin-bottom: 0 !important;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 1;
+    overflow: auto; /* Enable scrolling if content exceeds viewport height */
+  }
+  
+  /* Heading styling */
+  .hero2 h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  /* Background overlay */
+  .hero2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("../images/fhaHero.png");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.4;
+    z-index: -1;
+  }
+
+  .restaurant-title {
+    color: black;
+    margin-bottom: 50px;
+  }
+  
+  /* CollapsibleCard styling */
+  .collapsible-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 auto 20px; /* Keep top margin 0, bottom margin 20px for spacing */
+  padding: 20px; /* Padding inside the card */
+  width: 100%; /* Full width of the card */
+  max-width: 1200px; /* Max width for larger screens */
+  transition: box-shadow 0.3s ease; /* Smooth shadow transition */
+}
+
+/* Ensuring no margins for collapsible list */
+.collapsible-list {
+  list-style-type: disc; /* Disc bullets */
+  margin: 0; /* Remove margin from the list */
+  padding: 10px 0; /* Space around the list */
+}
+
+/* Add this rule to remove margin from collapsible items if any */
+.collapsible-item {
+  padding: 5px 0; /* Space between list items */
+  color: #495057; /* Darker gray for list items */
+}
+
+/* Remove margin from the last child in the collapsible card */
+.collapsible-card > *:last-child {
+  margin-bottom: 0; /* Ensure no extra bottom margin on the last child */
+}
+  
+  /* CollapsibleRule styling */
+  .collapsible-header {
+    cursor: pointer;
+    color: #007bff;
+    text-align: center;
+    font-size: 18px;
+    margin: 0;
+    padding: 10px;
+    border-bottom: 1px solid #e9ecef;
+    transition: color 0.3s;
+  }
+  
+  .collapsible-header:hover {
+    color: #0056b3;
+  }
+  
+  .collapsible-list {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding: 10px 0;
+  }
+  
+  .collapsible-item {
+    padding: 5px 0;
+    color: #495057;
+  }
+  
+  
+ 
+  
+  /* RESPONSIVE HOMESCREEN AND HEADER */
+/* Media query for smaller screens */
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .hero {
+   
+    height: 100%; /* Full viewport height */
+
+  }
+  .rules-button,
+  .bracket-button {
+      height: 200px; /* Keep height the same */
+      width: 100%; /* Keep width the same */
+      margin-bottom: 15px;
+  }
+
+.bracket-button {
+  margin-top: 15px;
+}
+  
+  .rules-btn-txt {
+      margin-top: 10px; /* Space above the text */
+      color:rgb(245, 245, 245); /* Text color */
+      font-size: 1.5rem; /* Increase font size for better visibility */
+      font-weight: bold; /* Make text bold for emphasis */
+      text-shadow: 
+          2px 2px 4px rgba(0, 0, 0, 0.7), /* Slight shadow for depth */
+          0 0 25px rgba(0, 0, 0, 0.5); /* Glow effect around the text */
+      transition: text-shadow 0.3s ease; /* Smooth transition for hover effect */
+  }
+
+  .hotel-button{
+      height: 150px; /* Keep height constant */
+      width: 100%; /* Ensure they take full width */
+      margin-bottom: 15px;
+  }
+
+}
+@media(max-width: 502px) {
+    .header-style {
+     margin-left: -30px;
+    }
+  
+    
+  }
+  
+
