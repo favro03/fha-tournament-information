@@ -156,21 +156,28 @@ header {
 
 /* Bracket Section */
 .bracket-container {
-    background-color: white;
-    display: flex; /* Enable flexbox */
-    flex-direction: column; /* Stack children vertically */
-    justify-content: center; /* Center items vertically */
-    align-items: center; /* Center items horizontally */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow for depth */
-    height: 100vh; /* Set the container height */
-    overflow: hidden; /* Prevent overflow from child elements */
+  background-color: white;
+  display: flex; /* Enable flexbox */
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center; /* Center items vertically */
+  align-items: center; /* Center items horizontally */
+  height: 100%; /* Full viewport height */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  overflow: hidden;
+}
+
+.bracket-container div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .bracket-container img {
-    max-height: 80%; /* Prevent the image from exceeding 80% of the container height */
-    max-width: 89%;
- 
+  max-height: 80%; 
+  max-width: 80%;
+  margin: 0 auto; /* Center images */
 }
+
 
 
   /* Hotel Section */
