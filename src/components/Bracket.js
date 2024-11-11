@@ -8,7 +8,7 @@ const Bracket = () => {
     <div className='bracket-container'>
 
         
-       {/* <img src={peeweeABracket} alt="Tournament Peewee A Bracket" /> */}
+       <img src={peeweeABracket} alt="Tournament Peewee A Bracket" />
     
        
        <img src={peeweeCBracket} alt="Tournament Peewee A Bracket" />
