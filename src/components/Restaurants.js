@@ -5,8 +5,12 @@ import restaurantData from './restaurantData';
 
 const Restaurant = () => {
   const handleShowMap = (restaurant) => {
-    const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(restaurant.address)}`;
-    window.open(mapsUrl, '_blank');
+    if (restaurant.name === 'Crooked Pint') {
+      window.open('https://www.crookedpint.com/locations/faribault-mn/', '_blank'); // Open site for Crooked Pint
+    } else {
+      const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(restaurant.address)}`;
+      window.open(mapsUrl, '_blank'); // Open Google Maps for other restaurants
+    }
   };
 
   return (
