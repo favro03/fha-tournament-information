@@ -6,7 +6,7 @@ const tournamentRules = {
       "Four (4) minute warm-up period.",
       "Three (3) – twelve (12) minute stop time periods for squirts/10U and fifteen (15) minute stop time Periods for Peewee, bantams, 12U and 15U",
       "One (1) minute rest between periods.",
-      "3rd Period Run Time if team leads by 5 or more goals.  During running time, the clock will be stopped for injuries, when the puck leaves the ice, when the net is off, during ice repairs and while penalties are being assessed (not during penalties).",
+      "2nd and 3rd period run time if team leads by 5 or more goals.  During running time, the clock will be stopped for injuries, when the puck leaves the ice, when the net is off, during ice repairs and while penalties are being assessed (not during penalties).",
       "Each team is allowed one (1) one-minute timeout per game.",
 
       "In the event of a tie at the end of regulation play, there will be a one (1) minute rest followed by a five (5) minute sudden-death, 4 on 4, stop time overtime period. If no goal is scored, there will be a one (1) minute rest followed by a shootout. Each team will choose five (5) skaters and they will alternate shots. If still tied, the shootout will continue in “Sudden Death” format, with one skater at a time from each team, until one team scores and the other doesn’t. No skater can participate in the shootout twice until each player on the team (excluding goalies), has participated",
