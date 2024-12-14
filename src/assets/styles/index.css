@@ -11,6 +11,9 @@ html, body {
     line-height: 1.6;
 }
 
+.marginBottom {
+  margin-bottom: 20px !important;
+}
 /* HEADER STYLE */
 
 header {

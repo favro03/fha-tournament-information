@@ -1,21 +1,22 @@
 import React from 'react';
-//import BracketImage from '../assets/images/TournamentConsolationBracket.png';
-// import peeweeABracket from '../assets/images/2024peeweeA.png'
-// import peeweeCBracket from '../assets/images/2024peeweeC.png'
-// import squirtBBracket from '../assets/images/2024SquirtB.png'
-import squirtBBracket from '../assets/images/squartBBracket.png'
+import U15BBracket from '../assets/images/U15B.png'
+import U12B1Bracket from '../assets/images/U12B1.png'
+import U12B2Bracket from '../assets/images/U12B2.png'
+
 
 const Bracket = () => {
   return (
     <div className='bracket-container'>
+      <h2 style={{ marginTop: '30px', fontWeight: 'bold' }}>Brackets</h2>
 
-        
-       {/* <img src={peeweeABracket} alt="Tournament Peewee A Bracket" />
-    
+
+          
+      <img className='marginBottom' src={U15BBracket} alt="Tournament U15B Bracket" />
+      <img className='marginBottom' src={U12B1Bracket} alt="Tournament U12B1 Bracket" /> 
+      <img className='marginBottom' src={U12B2Bracket} alt="Tournament U12B2 Bracket" />
+         
+   
        
-       <img src={peeweeCBracket} alt="Tournament Peewee A Bracket" /> */}
-
-       <img style={{marginTop: '20px', marginBottom: '20px'}} src={squirtBBracket} alt="Tournament Squirt B Bracket" />
  
      
     </div>
