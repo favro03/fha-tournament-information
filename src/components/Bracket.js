@@ -3,7 +3,7 @@ import U15ABracket from '../assets/images/U15A.png'
 import U15BBracket from '../assets/images/U15B.png'
 import U12B1Bracket from '../assets/images/U12B1.png'
 import U12B2Bracket from '../assets/images/U12B2.png'
-
+import miniMite from '../assets/images/miniMite.png'
 
 const Bracket = () => {
   return (
@@ -16,6 +16,7 @@ const Bracket = () => {
       <img className='marginBottom' src={U15BBracket} alt="Tournament U15B Bracket" />
       <img className='marginBottom' src={U12B1Bracket} alt="Tournament U12B1 Bracket" /> 
       <img className='marginBottom' src={U12B2Bracket} alt="Tournament U12B2 Bracket" />
+      <img className='marginBottom' src={miniMite} alt="Tournament Mini Mite Bracket" />
          
    
        
