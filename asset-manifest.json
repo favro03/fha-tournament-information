@@ -1,26 +1,23 @@
 {
   "files": {
     "main.css": "/fha-tournament-information/static/css/main.da744cf2.css",
-    "main.js": "/fha-tournament-information/static/js/main.3e739e10.js",
+    "main.js": "/fha-tournament-information/static/js/main.b702feb9.js",
     "static/js/453.a637b6aa.chunk.js": "/fha-tournament-information/static/js/453.a637b6aa.chunk.js",
     "static/media/fhaHero3.png": "/fha-tournament-information/static/media/fhaHero3.82e739255c8a5d55c03d.png",
     "static/media/fhaHero.png": "/fha-tournament-information/static/media/fhaHero.89661ebf57c8d866fa45.png",
     "static/media/greenBG.png": "/fha-tournament-information/static/media/greenBG.07ed4001a3f55396c390.png",
-    "static/media/U12B1.png": "/fha-tournament-information/static/media/U12B1.eb91f0fd3d9646d4c638.png",
-    "static/media/U12B2.png": "/fha-tournament-information/static/media/U12B2.29cae00a0ea27c055559.png",
-    "static/media/U15A.png": "/fha-tournament-information/static/media/U15A.8d016d3f57cd46c822a4.png",
     "static/media/miniMite.png": "/fha-tournament-information/static/media/miniMite.4aa77a83dd24544fd8ea.png",
-    "static/media/U15B.png": "/fha-tournament-information/static/media/U15B.894de3f84359bfe605a8.png",
     "static/media/rulesButton.png": "/fha-tournament-information/static/media/rulesButton.27b43526cd131d500a92.png",
+    "static/media/squirtC.png": "/fha-tournament-information/static/media/squirtC.55431983f66831da7b97.png",
     "static/media/fhaLogo.png": "/fha-tournament-information/static/media/fhaLogo.37800a831af07b1946a2.png",
     "static/media/restaurantPic.png": "/fha-tournament-information/static/media/restaurantPic.2183a4aa408585d0a735.png",
     "index.html": "/fha-tournament-information/index.html",
     "main.da744cf2.css.map": "/fha-tournament-information/static/css/main.da744cf2.css.map",
-    "main.3e739e10.js.map": "/fha-tournament-information/static/js/main.3e739e10.js.map",
+    "main.b702feb9.js.map": "/fha-tournament-information/static/js/main.b702feb9.js.map",
     "453.a637b6aa.chunk.js.map": "/fha-tournament-information/static/js/453.a637b6aa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.da744cf2.css",
-    "static/js/main.3e739e10.js"
+    "static/js/main.b702feb9.js"
   ]
 }
