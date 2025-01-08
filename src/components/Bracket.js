@@ -1,6 +1,7 @@
 import React from 'react';
 
-import miniMite from '../assets/images/miniMite.png'
+
+import miteBracket from '../assets/images/miteBracket.png'
 import squirtC from '../assets/images/squirtC.png'
   
 
@@ -10,7 +11,7 @@ const Bracket = () => {
       <h2 style={{ marginTop: '30px', fontWeight: 'bold' }}>Brackets</h2>
 
 
-      <img className='marginBottom' src={miniMite} alt="Tournament Mini Mite Bracket" />
+      <img className='marginBottom' src={miteBracket} alt="Tournament Mini Mite Bracket" />
     <img className='marginBottom' src={squirtC} alt="Tournament Squirt C" />
          
    
