@@ -12,7 +12,7 @@ const Bracket = () => {
       <h2 style={{ marginTop: '30px', fontWeight: 'bold' }}>Brackets</h2>
 
 
-      <img className='marginBottom' src={miteBracket} alt="Tournament Mini Mite Bracket" />
+   
     <img className='marginBottom' src={squirtC2} alt="Tournament Squirt C" />
          
    
