@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/fha-tournament-information/static/css/main.da744cf2.css",
-    "main.js": "/fha-tournament-information/static/js/main.30b8f5bb.js",
+    "main.js": "/fha-tournament-information/static/js/main.d01c52a2.js",
     "static/js/453.a637b6aa.chunk.js": "/fha-tournament-information/static/js/453.a637b6aa.chunk.js",
     "static/media/fhaHero3.png": "/fha-tournament-information/static/media/fhaHero3.82e739255c8a5d55c03d.png",
     "static/media/fhaHero.png": "/fha-tournament-information/static/media/fhaHero.89661ebf57c8d866fa45.png",
     "static/media/greenBG.png": "/fha-tournament-information/static/media/greenBG.07ed4001a3f55396c390.png",
+    "static/media/pweeweeBFrostTournament.png": "/fha-tournament-information/static/media/pweeweeBFrostTournament.d2a94e2c03b066580762.png",
     "static/media/rulesButton.png": "/fha-tournament-information/static/media/rulesButton.27b43526cd131d500a92.png",
     "static/media/fhaLogo.png": "/fha-tournament-information/static/media/fhaLogo.37800a831af07b1946a2.png",
     "static/media/restaurantPic.png": "/fha-tournament-information/static/media/restaurantPic.2183a4aa408585d0a735.png",
     "index.html": "/fha-tournament-information/index.html",
     "main.da744cf2.css.map": "/fha-tournament-information/static/css/main.da744cf2.css.map",
-    "main.30b8f5bb.js.map": "/fha-tournament-information/static/js/main.30b8f5bb.js.map",
+    "main.d01c52a2.js.map": "/fha-tournament-information/static/js/main.d01c52a2.js.map",
     "453.a637b6aa.chunk.js.map": "/fha-tournament-information/static/js/453.a637b6aa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.da744cf2.css",
-    "static/js/main.30b8f5bb.js"
+    "static/js/main.d01c52a2.js"
   ]
 }
