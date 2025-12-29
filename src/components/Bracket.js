@@ -1,4 +1,5 @@
-import pweewee from '../assets/images/pweeweeBFrostTournament.png'
+//import pweewee from '../assets/images/pweeweeBFrostTournament.png'
+import squirt from '../assets/images/squirtBTourny.png'
 
 
 
@@ -11,7 +12,7 @@ const Bracket = () => {
       <h2 style={{ marginTop: '30px', fontWeight: 'bold' }}>Brackets</h2>
       {/* <h3>No Upcomming Tournaments</h3> */}
 
-    <img className='marginBottom' src={pweewee} alt="Tournament Pweewee B Frost" /> 
+    <img className='marginBottom' src={squirt} alt="Tournament Pweewee B Frost" /> 
          
     </div>
   );
