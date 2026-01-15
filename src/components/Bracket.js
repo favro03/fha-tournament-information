@@ -1,6 +1,6 @@
 //import pweewee from '../assets/images/pweeweeBFrostTournament.png'
 import squirt from '../assets/images/squirtBTourny.png'
-import mite from '../assets/images/miteJamboree2026.png'
+import mite from '../assets/images/MiteBracket.png'
 
 
 
