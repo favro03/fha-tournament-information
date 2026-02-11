@@ -1,7 +1,7 @@
 //import pweewee from '../assets/images/pweeweeBFrostTournament.png'
 // import squirt from '../assets/images/squirtBTourny.png'
-import mite from '../assets/images/miteJam3.png'
-import bantam from '../assets/images/bantam.png'
+// import mite from '../assets/images/miteJam3.png'
+import bantam from '../assets/images/bantam26update.png'
 
 
 
